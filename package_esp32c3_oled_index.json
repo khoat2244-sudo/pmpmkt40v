@@ -13,8 +13,6 @@
           "category": "ESP32 Boards",
           "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.0/esp32-3.0.0.zip",
           "archiveFileName": "esp32-3.0.0.zip",
-          "checksum": "SHA-256:SKIP",
-          "size": "SKIP",
           "boards": [
             {
               "name": "ESP32-C3 0.42 OLED Dev Board",

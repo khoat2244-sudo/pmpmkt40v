@@ -1,0 +1,36 @@
+{
+  "packages": [
+    {
+      "name": "esp32c3_oled_custom",
+      "maintainer": "Custom",
+      "websiteURL": "https://github.com/espressif/arduino-esp32",
+      "email": "none",
+      "platforms": [
+        {
+          "name": "ESP32-C3 0.42 OLED Dev Board",
+          "architecture": "esp32",
+          "version": "1.0.0",
+          "category": "ESP32 Boards",
+          "url": "https://github.com/espressif/arduino-esp32/releases/download/3.0.0/esp32-3.0.0.zip",
+          "archiveFileName": "esp32-3.0.0.zip",
+          "checksum": "SHA-256:SKIP",
+          "size": "SKIP",
+          "boards": [
+            {
+              "name": "ESP32-C3 0.42 OLED Dev Board",
+              "build": {
+                "mcu": "esp32c3",
+                "variant": "esp32c3",
+                "f_cpu": "160000000L",
+                "flash_size": "4MB",
+                "upload_speed": "115200",
+                "upload_port": "COM3",
+                "extra_flags": "-DARDUINO_ESP32C3_OLED -DSDA_OLED=14 -DSCL_OLED=13 -DI2C_OLED_ADDR=0x3C"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
